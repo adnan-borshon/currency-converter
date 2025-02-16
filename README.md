@@ -1,5 +1,5 @@
 # currency-converter
-A simple currency converter by using open source API with Html, CSS and JavaScript.
+A simple currency converter by using open source API with Html, CSS and javascript.
 
 > **Design Example:** 
 ![image](https://github.com/user-attachments/assets/99e37b68-b1ce-4e51-85a1-cbd92647a81f)
