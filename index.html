@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchanger</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+  <script type="module" crossorigin src="/assets/index-190sD947.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-B8uDlJ5d.css">
+</head>
+
+<body class="bg-[#75C2D5] flex items-center justify-center translate-y-52">
+    <div class="container bg-white flex flex-col justify-center items-center p-4 w-auto rounded-xl font-[loto]">
+        <h1 class="text-[1.75rem] font-bold">Currency Converter</h1>
+        <div class="amount flex flex-col w-full">
+            <p class="pb-1">Enter Amount</p>
+            <input type="text" class="p-1 font-semibold outline-0 border border-gray-400 rounded-md w-full">
+        </div>
+        <div class="dropdown flex p-3">
+            <div class="from pr-5">
+                <p class="ml-1">From</p>
+                <div class="from-part flex justify-between items-center gap-1  border border-gray-400 rounded-md">
+                    <img class="from-flag w-8 rounded-xl ml-1" src="https://flagsapi.com/BD/flat/64.png">
+                    <select name="from" class="selection cursor-pointer h-7 outline-none  rounded-md p-1">
+                       
+                    </select>
+                </div>
+            </div>
+            <!-- <i class="ri-exchange-funds-line ri-2x flex items-center mt-4 text-indigo-600"></i> -->
+             <button class="icon-btn"><i class="ri-exchange-funds-line ri-2x flex items-center mt-4 text-indigo-600"></i></button>
+
+            <div class="to pl-4">
+                <p class="ml-1">To</p>
+                <div class="to-part flex justify-between items-center gap-1  border border-gray-400 rounded-md">
+                    <img class="to-flag w-8 rounded-xl ml-1" src="https://flagsapi.com/US/flat/64.png">
+                    <select name="to" class="selection cursor-pointer h-7 outline-none rounded-md p-1">
+                        
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="output text-xl pb-2"></div>
+
+        <button
+            class="rate-btn text-white bg-indigo-500 w-full border-0 py-2 px-4 focus:outline-none hover:bg-indigo-600 rounded text-2xl">Convert</button>
+
+    </div>
+    
+   
+</body>
+
+</html>
